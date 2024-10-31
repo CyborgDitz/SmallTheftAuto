@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class BrickCounter : MonoBehaviour
 {
     private int brickCount;
    public void CountBrick()
