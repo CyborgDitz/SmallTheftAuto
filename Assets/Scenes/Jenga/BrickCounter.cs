@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private int brickCount;
+   public void CountBrick()
+   {
+       brickCount++;
+       Debug.Log($"Total Bricks Removed: {brickCount}");
+   }
 }
